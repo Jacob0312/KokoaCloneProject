@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+		<title>Login</title>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_left">
+				<h1>No Service</h1>
+				<i class="fas fa-wifi"></i>
+			</div>
+			<h2>18:43</h2>
+			<div class="header_battery">
+				<h3>110%</h3>
+				<i class="fas fa-battery-half"></i>
+				<i class="fas fa-location-arrow"></i>
+			</div>
+		</div>
+
+        <div class="login_intro">
+            <div class="login_info">
+                <img src="img/marvel.png">
+                <h1>If you have a MTalk Account, log in with your email or phone number.</h1>
+            </div>
+        </div>
+            <div class="login_input">
+				<form action="friends.html" method="get" id="login-form">
+                    <input id="email" type="text" placeholder="Email or phone number" required/>
+                    <input id="password" type="password" placeholder="Password" required  minlength="4"/>
+					<input id="login_buttons-login" type="submit" value="Log In"/>
+					<input id="login_buttons-signup"type="submit" value="Sign Up"/>
+				</form>
+            </div>
+          
+            <div class="forgot">
+                <h1>Find MTalk Account or Password</h1>
+            </div>
+        </div>
+		<div id="no-mobile">
+			<span>Your screen is too big</span>
+		</div>
+		<script
+			src="https://kit.fontawesome.com/6478f529f2.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+.login_intro {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.login_info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login_info img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100px;
+	height: auto;
+}
+
+.login_info h1 {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.login_input {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+#email {
+	margin-bottom: 25px;
+}
+#password {
+	margin-bottom: 25px;
+}
+#login_buttons-login {
+	margin-bottom: 15px;
+	width: 310px;
+	height: 35px;
+	text-align: center;
+	border: none;
+	background-color: yellow;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+#login_buttons-signup {
+	margin-bottom: 15px;
+	width: 310px;
+	height: 35px;
+	text-align: center;
+	border: none;
+	background-color: yellow;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+
+#login-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.forgot {
+	display: flex;
+	justify-content: center;
+}
+
+#email {
+	width: 320px;
+	height: 35px;
+	border: none;
+	background-color: white;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+}
+#password {
+	width: 320px;
+	height: 35px;
+	border: none;
+	background-color: white;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.forgot {
+	opacity: 0.7;
+}

@@ -1,0 +1,142 @@
+.friends_header {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.friends_header-left h1 {
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.friends_header-right {
+	margin-right: 20px;
+}
+
+.friends_header-right i {
+	margin-right: 7px;
+}
+
+.friends_header-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100vw;
+	height: 20px;
+	border: 1px solid black;
+	padding: 13px 0px;
+	margin-bottom: 10px;
+}
+
+.friends_header-info i {
+	margin-right: 10px;
+	opacity: 0.3;
+}
+
+.friends_header-info h1 {
+	font-weight: bold;
+}
+
+.friends_contents-self {
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+
+.friends_contents-self img {
+	width: 70px;
+	height: 70px;
+	border-radius: 30px;
+}
+
+.friends_contents-self h1 {
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.friends_contents_channel-top {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 20px;
+}
+
+.friends_contents_channel-below {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.friends_contents_channel-left {
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+}
+.friends_contents_channel-left img {
+	width: 70px;
+	height: 70px;
+	border-radius: 30px;
+	margin-right: 20px;
+}
+
+.friends_contents_channel-left h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.friends_contents-channel-right h1 {
+	margin-right: 20px;
+	font-weight: bold;
+	opacity: 0.3;
+}
+
+.friends_contents_friends-top {
+	display: flex;
+	margin: 30px 0px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.friends_contents_friends-top h1 {
+	margin-left: 20px;
+	font-size: 20px;
+	opacity: 0.5;
+}
+
+.friends_contents_friends-top i {
+	margin-right: 20px;
+}
+
+.friends_contents_friends {
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.friends_contents_friends img {
+	width: 70px;
+	height: 70px;
+	border-radius: 30px;
+}
+
+.friends_contents_friends h1 {
+	margin-left: 17px;
+	font-size: 20px;
+}
+
+.friends_contents hr {
+	display: block;
+	border: 0;
+	clear: both;
+	width: 97%;
+	background-color: black;
+	height: 1px;
+	opacity: 0.2;
+}

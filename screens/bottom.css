@@ -1,0 +1,38 @@
+.bottom_bar {
+	background-color: #f78f3f;
+	padding: 10px 0px;
+	display: flex;
+	justify-content: space-around;
+	height: auto;
+	bottom: 0px;
+	position: fixed;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.bottom_bar i {
+	font-size: 25px;
+}
+
+@keyframes notiRotate {
+	from {
+		transform: rotateY(0deg);
+	}
+	to {
+		transform: rotateY(360deg);
+	}
+}
+.nav_link i h1 {
+	width: 20px;
+	height: 20px;
+	display: flex;
+	position: absolute;
+	top: 6px;
+	margin-left: 10px;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	border-radius: 10px;
+	font-size: 13px;
+	animation: notiRotate 1s ease-in-out infinite;
+}

@@ -1,0 +1,136 @@
+.chats_header {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.chats_header-left h1 {
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.chats_header-right {
+	margin-right: 20px;
+}
+
+.chats_header-right i {
+	margin-right: 7px;
+}
+
+@keyframes rotateCog {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.chats_header-right .fa-cog:hover {
+	animation: rotateCog 1s ease-in-out infinite;
+}
+
+.first_chat {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0px 20px;
+}
+
+.first_chat:hover {
+	background-color: #f78f3f;
+	cursor: pointer;
+}
+
+.first_chat img {
+	width: 84px;
+	height: 70px;
+	border-radius: 30px;
+}
+
+.first_chat-left {
+	padding-left: 20px;
+	display: flex;
+	width: 100vw;
+	flex-direction: column;
+}
+
+.first_chat-left h1 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 6px;
+}
+
+.first_chat-right {
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+.first_chat-right h2 {
+	margin-left: 20px;
+	margin-top: 10px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: red;
+}
+
+.second_chat {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0px 20px;
+}
+
+.second_chat img {
+	width: 84px;
+	height: 70px;
+	border-radius: 30px;
+}
+
+.second_chat-left {
+	padding-left: 20px;
+	display: flex;
+	width: 100vw;
+	flex-direction: column;
+}
+
+.second_chat-left h1 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 6px;
+}
+
+.second_chat-right {
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+.second_chat-right h2 {
+	margin-left: 20px;
+	margin-top: 10px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: red;
+}
+
+.second_chat {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,41 @@
+.header {
+	position: fixed;
+	top: 10px;
+	width: 100vw;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	top: 0px;
+	padding-top: 10px;
+	background-color: #504a4a;
+	color: white;
+	z-index: 10;
+}
+
+.header_left {
+	margin-left: 10px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.header_left i {
+	margin-left: 10px;
+}
+
+.header h2 {
+	display: flex;
+	justify-content: center;
+}
+
+.header_battery {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header_battery h3 {
+	margin-right: 10px;
+}
+
+.header_battery i {
+	margin-right: 10px;
+}
